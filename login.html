@@ -1,0 +1,154 @@
+
+<html>
+<head>
+<title>Welcome To facebook</title>
+<link rel='icon' href='kk.png' type= 'image/x-icon'>
+ <script>
+      function check(form)
+       {
+           
+            
+             var us=form.tf1.value;
+             var pw=form.ps1.value;
+             if(us =="alok"||us =="" || us=="aman" || us == "rajeev")
+              {if( pw == "password")
+                {
+                  window.open('home 2.html');
+                  
+
+                 }
+                 else 
+                 {
+                     alert("password incorrect");
+                 }
+             }
+         else
+           {
+            alert("Entered username incorrect");
+        
+          }
+
+}
+function con(form)
+{
+    
+    window.open('succ.html');
+}
+
+</script>
+
+<style>
+body
+{
+    background-color: #f7f7f7;
+}
+.header
+{
+    padding:1px;
+    background-color:#3b5998;
+    border:1px groove #3b5998;
+
+}
+
+.inner_header
+{
+    margin-right: 50px;
+    background-color:#3b5998;
+
+}
+#fbt
+{
+    float:left;
+    margin-left:250px;
+    font-family: Courier;
+    background-color:#3b5998;
+    color:white;
+
+}
+#login_bar
+{   
+    color:white;
+    margin-top:30px;
+    margin-left:780px;
+
+}
+.article
+{
+float:left;
+margin-top: 20px;
+margin-left:10px;
+border-right:1px solid black;
+width: 700px;
+
+}
+.signup
+{
+    margin-top:12px;
+    margin-left: 780px;
+    font-family: Courier;
+    color:grey;
+    
+    width:500px;
+
+}
+#footer
+{
+    margin-top:30px;
+    padding: 5px;
+    font-family: Courier;
+    text-align: center;
+    color:white;
+    background-color: #3b5998;
+
+}
+</style>
+<head>
+<body>
+
+<div class="header">
+     <div class="inner_header">
+         <div id="fbt">
+             <h1><big><b>facebook</b></big></h1>
+             </div>
+                 <div id="login_bar">
+                     <form name="login">
+                        <br/>
+                        <br/> Email/phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password<br>
+                         <input type="text" name="tf1"/ opacity:transperent;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <input type="password" name="ps1">&nbsp;
+                         <input type="submit"  name="sub1" onclick = "check(this.form)" value="Log_in" style="background-color:#3300FF;  border:1px;  border-color:#3300FF; text-align:center; width:70px;   border-style:groove; text-decoration: none; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); " target="self" />
+                    
+                     </form>
+                 </div>
+         </div>
+     </div>
+
+<div class="article">
+     <img src="fb.jpg" width=100% height="440">
+</div>
+
+
+<div class="signup">
+<form>
+     <h1>Create a New Account</h1>
+     <h3>it's free to create</h3><br/>
+      <input type="text" name="tf2" placeholder="FIRST NAME" size="24"  required style="font-size:14px; padding:4px; border-radius:3px" required/; >&nbsp;&nbsp;
+     <input type="text" name="tf3" placeholder="LAST NAME" size="24"  required style="font-size:14px; padding:4px; border-radius:3px" required/><br/><br/>
+     <input type="text" name="tf4" placeholder="MOBILE NUMBER/EMAIL ID" size="58" required style="font-size:14px; padding:4px; border-radius:3px" required/><br/><br/>
+     PASSWORD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" placeholder="PASSWORD" name="ps2"  size="30" required style="font-size:14px; padding:4px; border-radius:3px" required
+     /><br><br> 
+RE-ENTER PASSWORD &nbsp;&nbsp;&nbsp;<input type="password" name="ps3" placeholder="RE-ENTER PASSWORD"value="" size="30" required style="font-size:14px; padding:4px; border-radius:3px"/><br/><br/>
+DATE OF BIRTH
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="d1"/><br/><br/>
+<input type="radio" name="r1" value="1"/>&nbsp;MALE&nbsp;&nbsp;&nbsp;<input type="radio" name="r1" value="2" />&nbsp;FEMALE<br/>
+<h6>By clicking Create Account, you agree to our Terms and confirm<br> that you have read our Data Policy, including our Cookie Use<br> Policy. You may receive SMS message notifications from<br> Facebook and can opt out at any time</h6><br>
+<input type="submit" name="sub2"   value="CREATE ACCOUNT"  style="background-color:#4CAF50; font-size:17; padding:8px; border-radius:8px; border-color:#4CAF50; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);"  />
+</form>
+
+</div>
+<div id="footer">
+facebook &copy; 2017
+</div>
+
+</body>
+</html>
